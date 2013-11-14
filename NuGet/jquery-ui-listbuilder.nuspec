@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>jquery-ui-listbuilder</id>
+    <version>1.0.0</version>
+    <authors>Michael Lang</authors>
+    <owners>Nexul Software LLC, Michael Lang</owners>
+    <copyright>Copyright 2013 Michael Lang</copyright>
+    <projectUrl>https://github.com/michael-lang/jquery-ui-listbuilder</projectUrl>
+    <licenseUrl>https://github.com/michael-lang/jquery-ui-listbuilder/blob/master/MIT-LICENSE.txt
+	OR https://github.com/michael-lang/jquery-ui-listbuilder/blob/master/GPL-LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<summary>This widget provides a well-constrained way to let users build a list of items.
+	</summary>
+    <description>Common applications include the Facebook-style list builder for message recipients (F6) which provides a textarea with an auto-complete function and the ability to re-order and delete recipients. The Apple Mail style builder (F7) adds an action menu next for each item that can be used to offering multiple actions. This supports re-ordering via drag and drop, plus keyboard shortcuts to select and delete items.</description>
+    <releaseNotes>This code is open source and can be found at https://github.com/michael-lang/jquery-ui-listbuilder.
+	Planning wiki: http://wiki.jqueryui.com/w/page/12137993/ListBuilder
+	</releaseNotes>
+    <tags>jquery listbuilder</tags>
+    <dependencies>
+      <dependency id="jQuery" version="1.7.1.1" />
+      <dependency id="jQuery.UI.Combined" version="1.8.20.1" />
+    </dependencies>
+  </metadata>
+</package>

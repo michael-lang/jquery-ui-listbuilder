@@ -1,3 +1,13 @@
+#################
+## Solution Specific generated files
+#################
+release.log
+NuGetRelease/
+NuGet/Content/**/*.*
+
+#################
+## jQuery UI base ignored files
+#################
 dist
 node_modules
 docs
