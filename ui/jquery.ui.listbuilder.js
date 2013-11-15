@@ -187,7 +187,7 @@
 			var self = this,
 				el = self.element,
 				text = el.val(),
-				tokens = text.split(self.options.delimiter || self.options.delimeter);
+				tokens = text.split(self.options.delimeter || self.options.delimiter);
 			this._list.children(">li:not(:last)").remove();
 			for (var i = 0; i < tokens.length; i++) {
 				self._add(tokens[i]);
@@ -202,7 +202,7 @@
 					$(items[i]).parent("li").remove();
 				}
 			}
-			var text = texts.join(this.options.delimiter || this.options.delimeter);
+			var text = texts.join(this.options.delimeter || this.options.delimiter);
 			this.element.val(text);
 			this.element.change();
 		},

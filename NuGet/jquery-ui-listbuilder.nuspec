@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jquery-ui-listbuilder</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 	<title>jQuery UI Listbuilder widget</title>
     <authors>Michael Lang</authors>
     <owners>Nexul Software LLC, Michael Lang</owners>
@@ -17,7 +17,7 @@
     <releaseNotes>This code is open source and can be found at https://github.com/michael-lang/jquery-ui-listbuilder.
 	Planning wiki: http://wiki.jqueryui.com/w/page/12137993/ListBuilder
 	Changes:
-	1.0.1: rename delimeter option to delimiter to fix spelling.  Old delimeter option name still works for now, but will be removed at a future date.
+	1.0.1/1.0.2: rename delimeter option to delimiter to fix spelling.  Old delimeter option name still works for now, but will be removed at a future date.
 	</releaseNotes>
     <tags>jquery listbuilder</tags>
     <dependencies>
