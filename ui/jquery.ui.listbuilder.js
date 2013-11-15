@@ -17,7 +17,7 @@
 (function ($) {
 	$.widget("ui.listbuilder", {
 		options: {
-			delimeter: ",",
+			delimiter: ",",
 			duplicates: false,
 			sortable: false, /*simple true or false*/
 			autocomplete: false, /*default no autocomplete, if specified these are the options to pass to the autocomplete*/
@@ -187,7 +187,7 @@
 			var self = this,
 				el = self.element,
 				text = el.val(),
-				tokens = text.split(self.options.delimeter);
+				tokens = text.split(self.options.delimiter || self.options.delimeter);
 			this._list.children(">li:not(:last)").remove();
 			for (var i = 0; i < tokens.length; i++) {
 				self._add(tokens[i]);
@@ -202,7 +202,7 @@
 					$(items[i]).parent("li").remove();
 				}
 			}
-			var text = texts.join(this.options.delimeter);
+			var text = texts.join(this.options.delimiter || this.options.delimeter);
 			this.element.val(text);
 			this.element.change();
 		},
