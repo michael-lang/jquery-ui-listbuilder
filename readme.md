@@ -19,7 +19,7 @@ See: http://wiki.jqueryui.com/w/page/12137993/ListBuilder
  
 Options:
 --------
-* delimeter (string, default: ",") 
+* delimiter (string, default: ",") 
 A text delimeter used to parse the original values at creation time and then to write list items back into the original text input each time an item is added, removed, or sorted to a new position.
 * duplicates (boolean, default: false) 
  Specifies if more than one item of the same text value can be added.
