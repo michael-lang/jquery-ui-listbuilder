@@ -1,3 +1,8 @@
+This is WAY out of date, and is now ARCHIVED.
+
+
+============
+
 The official development and planning wiki for this project:
 http://wiki.jqueryui.com/w/page/12137993/ListBuilder
 
